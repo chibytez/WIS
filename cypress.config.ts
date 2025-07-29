@@ -9,12 +9,6 @@ export default defineConfig({
       return config;
     },
     "baseUrl": "https://www.thepunterspage.com",
-    specPattern: 'cypress/e2e/*.cy.ts',
-    supportFile: 'cypress/support/e2e.ts',
+  
   },
-  env: {
-    codeCoverage: {
-      exclude: ['cypress/**/*.*']
-    }
-  }
 });
