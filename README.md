@@ -9,8 +9,8 @@ npm test
 ## How to run Headless
 npm run test:run
 
-## To Test Coverage
-coverage:report
+## What metrics would you track for regression confidence?
+We can use cypress coverage
 Note: coverage will not work because I'm testing an external website
 
 

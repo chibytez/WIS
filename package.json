@@ -5,19 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "npx cypress open",
-    "test:run": "npx cypress run",
-    "coverage:report": "nyc report --reporter=html && open coverage/index.html"
+    "test:run": "npx cypress run"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@cypress/code-coverage": "^3.14.5",
     "@types/node": "^24.1.0",
     "babel-plugin-istanbul": "^7.0.0",
     "cypress": "^14.5.3",
-    "istanbul-lib-coverage": "^3.2.2",
-    "nyc": "^17.1.0",
     "typescript": "^5.8.3"
   }
 }
