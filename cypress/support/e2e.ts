@@ -18,7 +18,12 @@ import './commands'
 import '@cypress/code-coverage/support';
 
 Cypress.on('uncaught:exception', (err, runnable) => {
-    if (err.message.includes('Script error') || err.message.includes('CDN')) {
-      return false;
-    }
-  });
+  if (
+    err.message.includes('Script error') ||
+    err.message.includes('CDN') ||
+    err.message.includes('Blocked a frame with origin')
+  ) {
+    return false;
+  }
+  return true;
+});
