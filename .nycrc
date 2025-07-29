@@ -1,0 +1,17 @@
+
+{
+  "all": true,
+  "include": [
+    "**/*.{js,ts}",
+    "!**/node_modules/**",
+    "!**/cypress/**"
+  ],
+  "reporter": [
+    "html",
+    "text",
+    "text-summary",
+    "lcov"
+  ],
+  "sourceMap": true,
+  "instrument": false
+}

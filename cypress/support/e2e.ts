@@ -15,6 +15,8 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
+import '@cypress/code-coverage/support';
+
 Cypress.on('uncaught:exception', (err, runnable) => {
     if (err.message.includes('Script error') || err.message.includes('CDN')) {
       return false;
