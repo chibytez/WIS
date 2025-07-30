@@ -3,6 +3,9 @@
 # CI/CD
 [![Cypress Tests](https://github.com/chibytez/WIS/actions/workflows/cypress.yml/badge.svg)](https://github.com/chibytez/WIS/actions/workflows/cypress.yml)
 
+## install dependencies
+npm install
+
 ## How to run Headed
 npm test
 
